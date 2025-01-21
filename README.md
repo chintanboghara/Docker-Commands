@@ -59,8 +59,6 @@
     docker rm -f <container_id_or_name>
     ```
 
----
-
 ### **Image Management**
 1. **List Images**
    ```bash
@@ -92,8 +90,6 @@
    docker push <image_name>
    ```
 
----
-
 ### **Container Logs and Monitoring**
 1. **View Container Logs**
    ```bash
@@ -119,8 +115,6 @@
    ```bash
    docker exec -it <container_id_or_name> <command>
    ```
-
----
 
 ### **Networking**
 1. **List Networks**
@@ -148,8 +142,6 @@
    docker network inspect <network_name>
    ```
 
----
-
 ### **Volume Management**
 1. **List Volumes**
    ```bash
@@ -175,8 +167,6 @@
    ```bash
    docker volume prune
    ```
-
----
 
 ### **Docker Compose**
 1. **Start Services**
@@ -208,8 +198,6 @@
    ```bash
    docker-compose ps
    ```
-
----
 
 ### **Miscellaneous**
 1. **Prune Unused Objects**
@@ -277,8 +265,6 @@
    docker diff <container_id_or_name>
    ```
 
----
-
 ### **Advanced Image Management**
 1. **Save an Image to a Tar Archive**
    ```bash
@@ -304,8 +290,6 @@
    ```bash
    docker export <container_id> | docker import - <flattened_image_name>:<tag>
    ```
-
----
 
 ### **Advanced Networking**
 1. **Create a Network with a Specific Driver**
@@ -333,8 +317,6 @@
    docker network disconnect -f <network_name> <container_id_or_name>
    ```
 
----
-
 ### **Advanced Volume Management**
 1. **Create a Volume with Specific Options**
    ```bash
@@ -355,8 +337,6 @@
    ```bash
    docker volume ls --format "{{.Driver}}"
    ```
-
----
 
 ### **Docker Swarm (Orchestration)**
 1. **Initialize a Swarm**
@@ -404,8 +384,6 @@
    docker service update --image <new_image> <service_name>
    ```
 
----
-
 ### **Docker Security**
 1. **Run a Container in Read-Only Mode**
    ```bash
@@ -433,8 +411,6 @@
    docker scan <image_name>
    ```
 
----
-
 ### **Docker Registry**
 1. **Log in to a Docker Registry**
    ```bash
@@ -461,8 +437,6 @@
    docker push <registry_url>/<repository>:<tag>
    ```
 
----
-
 ### **Debugging and Troubleshooting**
 1. **Check Docker Daemon Logs**
    ```bash
@@ -488,8 +462,6 @@
    ```bash
    docker top <container_id_or_name>
    ```
-
----
 
 ### **Docker Plugins**
 1. **List Installed Plugins**
